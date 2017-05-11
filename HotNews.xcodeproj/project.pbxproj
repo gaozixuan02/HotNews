@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCA873861EC3FE5C00A4E428 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA873851EC3FE5C00A4E428 /* main.m */; };
+		CCA873891EC3FE5C00A4E428 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA873881EC3FE5C00A4E428 /* AppDelegate.m */; };
+		CCA8738C1EC3FE5C00A4E428 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA8738B1EC3FE5C00A4E428 /* ViewController.m */; };
+		CCA8738F1EC3FE5D00A4E428 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCA8738D1EC3FE5D00A4E428 /* Main.storyboard */; };
+		CCA873911EC3FE5D00A4E428 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCA873901EC3FE5D00A4E428 /* Assets.xcassets */; };
+		CCA873941EC3FE5D00A4E428 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCA873921EC3FE5D00A4E428 /* LaunchScreen.storyboard */; };
+		CCA8739F1EC3FE6000A4E428 /* HotNewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA8739E1EC3FE6000A4E428 /* HotNewsTests.m */; };
+		CCA873AA1EC3FE6000A4E428 /* HotNewsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA873A91EC3FE6000A4E428 /* HotNewsUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCA8739B1EC3FE6000A4E428 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCA873791EC3FE5C00A4E428 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCA873801EC3FE5C00A4E428;
+			remoteInfo = HotNews;
+		};
+		CCA873A61EC3FE6000A4E428 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCA873791EC3FE5C00A4E428 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCA873801EC3FE5C00A4E428;
+			remoteInfo = HotNews;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCA873811EC3FE5C00A4E428 /* HotNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCA873851EC3FE5C00A4E428 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCA873871EC3FE5C00A4E428 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CCA873881EC3FE5C00A4E428 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CCA8738A1EC3FE5C00A4E428 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CCA8738B1EC3FE5C00A4E428 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CCA8738E1EC3FE5D00A4E428 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCA873901EC3FE5D00A4E428 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCA873931EC3FE5D00A4E428 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CCA873951EC3FE5D00A4E428 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCA8739A1EC3FE6000A4E428 /* HotNewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HotNewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCA8739E1EC3FE6000A4E428 /* HotNewsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HotNewsTests.m; sourceTree = "<group>"; };
+		CCA873A01EC3FE6000A4E428 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCA873A51EC3FE6000A4E428 /* HotNewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HotNewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCA873A91EC3FE6000A4E428 /* HotNewsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HotNewsUITests.m; sourceTree = "<group>"; };
+		CCA873AB1EC3FE6000A4E428 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCA8737E1EC3FE5C00A4E428 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCA873971EC3FE6000A4E428 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCA873A21EC3FE6000A4E428 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCA873781EC3FE5B00A4E428 = {
+			isa = PBXGroup;
+			children = (
+				CCA873831EC3FE5C00A4E428 /* HotNews */,
+				CCA8739D1EC3FE6000A4E428 /* HotNewsTests */,
+				CCA873A81EC3FE6000A4E428 /* HotNewsUITests */,
+				CCA873821EC3FE5C00A4E428 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCA873821EC3FE5C00A4E428 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCA873811EC3FE5C00A4E428 /* HotNews.app */,
+				CCA8739A1EC3FE6000A4E428 /* HotNewsTests.xctest */,
+				CCA873A51EC3FE6000A4E428 /* HotNewsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCA873831EC3FE5C00A4E428 /* HotNews */ = {
+			isa = PBXGroup;
+			children = (
+				CCA873871EC3FE5C00A4E428 /* AppDelegate.h */,
+				CCA873881EC3FE5C00A4E428 /* AppDelegate.m */,
+				CCA8738A1EC3FE5C00A4E428 /* ViewController.h */,
+				CCA8738B1EC3FE5C00A4E428 /* ViewController.m */,
+				CCA8738D1EC3FE5D00A4E428 /* Main.storyboard */,
+				CCA873901EC3FE5D00A4E428 /* Assets.xcassets */,
+				CCA873921EC3FE5D00A4E428 /* LaunchScreen.storyboard */,
+				CCA873951EC3FE5D00A4E428 /* Info.plist */,
+				CCA873841EC3FE5C00A4E428 /* Supporting Files */,
+			);
+			path = HotNews;
+			sourceTree = "<group>";
+		};
+		CCA873841EC3FE5C00A4E428 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCA873851EC3FE5C00A4E428 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCA8739D1EC3FE6000A4E428 /* HotNewsTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCA8739E1EC3FE6000A4E428 /* HotNewsTests.m */,
+				CCA873A01EC3FE6000A4E428 /* Info.plist */,
+			);
+			path = HotNewsTests;
+			sourceTree = "<group>";
+		};
+		CCA873A81EC3FE6000A4E428 /* HotNewsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CCA873A91EC3FE6000A4E428 /* HotNewsUITests.m */,
+				CCA873AB1EC3FE6000A4E428 /* Info.plist */,
+			);
+			path = HotNewsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCA873801EC3FE5C00A4E428 /* HotNews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCA873AE1EC3FE6000A4E428 /* Build configuration list for PBXNativeTarget "HotNews" */;
+			buildPhases = (
+				CCA8737D1EC3FE5C00A4E428 /* Sources */,
+				CCA8737E1EC3FE5C00A4E428 /* Frameworks */,
+				CCA8737F1EC3FE5C00A4E428 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HotNews;
+			productName = HotNews;
+			productReference = CCA873811EC3FE5C00A4E428 /* HotNews.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCA873991EC3FE6000A4E428 /* HotNewsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCA873B11EC3FE6000A4E428 /* Build configuration list for PBXNativeTarget "HotNewsTests" */;
+			buildPhases = (
+				CCA873961EC3FE6000A4E428 /* Sources */,
+				CCA873971EC3FE6000A4E428 /* Frameworks */,
+				CCA873981EC3FE6000A4E428 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCA8739C1EC3FE6000A4E428 /* PBXTargetDependency */,
+			);
+			name = HotNewsTests;
+			productName = HotNewsTests;
+			productReference = CCA8739A1EC3FE6000A4E428 /* HotNewsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CCA873A41EC3FE6000A4E428 /* HotNewsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCA873B41EC3FE6000A4E428 /* Build configuration list for PBXNativeTarget "HotNewsUITests" */;
+			buildPhases = (
+				CCA873A11EC3FE6000A4E428 /* Sources */,
+				CCA873A21EC3FE6000A4E428 /* Frameworks */,
+				CCA873A31EC3FE6000A4E428 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCA873A71EC3FE6000A4E428 /* PBXTargetDependency */,
+			);
+			name = HotNewsUITests;
+			productName = HotNewsUITests;
+			productReference = CCA873A51EC3FE6000A4E428 /* HotNewsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCA873791EC3FE5C00A4E428 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = GaoChao;
+				TargetAttributes = {
+					CCA873801EC3FE5C00A4E428 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = GAC469M6KT;
+						ProvisioningStyle = Automatic;
+					};
+					CCA873991EC3FE6000A4E428 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = GAC469M6KT;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CCA873801EC3FE5C00A4E428;
+					};
+					CCA873A41EC3FE6000A4E428 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = GAC469M6KT;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CCA873801EC3FE5C00A4E428;
+					};
+				};
+			};
+			buildConfigurationList = CCA8737C1EC3FE5C00A4E428 /* Build configuration list for PBXProject "HotNews" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCA873781EC3FE5B00A4E428;
+			productRefGroup = CCA873821EC3FE5C00A4E428 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCA873801EC3FE5C00A4E428 /* HotNews */,
+				CCA873991EC3FE6000A4E428 /* HotNewsTests */,
+				CCA873A41EC3FE6000A4E428 /* HotNewsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCA8737F1EC3FE5C00A4E428 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA873941EC3FE5D00A4E428 /* LaunchScreen.storyboard in Resources */,
+				CCA873911EC3FE5D00A4E428 /* Assets.xcassets in Resources */,
+				CCA8738F1EC3FE5D00A4E428 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCA873981EC3FE6000A4E428 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCA873A31EC3FE6000A4E428 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCA8737D1EC3FE5C00A4E428 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA8738C1EC3FE5C00A4E428 /* ViewController.m in Sources */,
+				CCA873891EC3FE5C00A4E428 /* AppDelegate.m in Sources */,
+				CCA873861EC3FE5C00A4E428 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCA873961EC3FE6000A4E428 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA8739F1EC3FE6000A4E428 /* HotNewsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCA873A11EC3FE6000A4E428 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA873AA1EC3FE6000A4E428 /* HotNewsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCA8739C1EC3FE6000A4E428 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCA873801EC3FE5C00A4E428 /* HotNews */;
+			targetProxy = CCA8739B1EC3FE6000A4E428 /* PBXContainerItemProxy */;
+		};
+		CCA873A71EC3FE6000A4E428 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCA873801EC3FE5C00A4E428 /* HotNews */;
+			targetProxy = CCA873A61EC3FE6000A4E428 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCA8738D1EC3FE5D00A4E428 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCA8738E1EC3FE5D00A4E428 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCA873921EC3FE5D00A4E428 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCA873931EC3FE5D00A4E428 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCA873AC1EC3FE6000A4E428 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCA873AD1EC3FE6000A4E428 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCA873AF1EC3FE6000A4E428 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GAC469M6KT;
+				INFOPLIST_FILE = HotNews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-7414080-qq.com.HotNews";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CCA873B01EC3FE6000A4E428 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GAC469M6KT;
+				INFOPLIST_FILE = HotNews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-7414080-qq.com.HotNews";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CCA873B21EC3FE6000A4E428 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = GAC469M6KT;
+				INFOPLIST_FILE = HotNewsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-7414080-qq.com.HotNewsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HotNews.app/HotNews";
+			};
+			name = Debug;
+		};
+		CCA873B31EC3FE6000A4E428 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = GAC469M6KT;
+				INFOPLIST_FILE = HotNewsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-7414080-qq.com.HotNewsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HotNews.app/HotNews";
+			};
+			name = Release;
+		};
+		CCA873B51EC3FE6000A4E428 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = GAC469M6KT;
+				INFOPLIST_FILE = HotNewsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-7414080-qq.com.HotNewsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HotNews;
+			};
+			name = Debug;
+		};
+		CCA873B61EC3FE6000A4E428 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = GAC469M6KT;
+				INFOPLIST_FILE = HotNewsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-7414080-qq.com.HotNewsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HotNews;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCA8737C1EC3FE5C00A4E428 /* Build configuration list for PBXProject "HotNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCA873AC1EC3FE6000A4E428 /* Debug */,
+				CCA873AD1EC3FE6000A4E428 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCA873AE1EC3FE6000A4E428 /* Build configuration list for PBXNativeTarget "HotNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCA873AF1EC3FE6000A4E428 /* Debug */,
+				CCA873B01EC3FE6000A4E428 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CCA873B11EC3FE6000A4E428 /* Build configuration list for PBXNativeTarget "HotNewsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCA873B21EC3FE6000A4E428 /* Debug */,
+				CCA873B31EC3FE6000A4E428 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CCA873B41EC3FE6000A4E428 /* Build configuration list for PBXNativeTarget "HotNewsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCA873B51EC3FE6000A4E428 /* Debug */,
+				CCA873B61EC3FE6000A4E428 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCA873791EC3FE5C00A4E428 /* Project object */;
+}
