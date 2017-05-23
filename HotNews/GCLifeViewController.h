@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  GCLifeViewController.h
 //  HotNews
 //
 //  Created by GaoChao on 2017/5/11.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface GCLifeViewController : UIViewController
 
 @end
-

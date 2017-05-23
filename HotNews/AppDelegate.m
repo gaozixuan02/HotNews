@@ -7,16 +7,35 @@
 //
 
 #import "AppDelegate.h"
-
-@interface AppDelegate ()
-
+#import "GCHomeViewController.h"
+#import "GCMainNewsViewController.h"
+#import "GCLifeViewController.h"
+@interface AppDelegate ()<UIScrollViewDelegate,UITabBarDelegate,UINavigationControllerDelegate,UITabBarControllerDelegate>
+@property(nonatomic,strong)UITabBarController *tabBarController;
 @end
 
 @implementation AppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    UINavigationController *homeNav = [[UINavigationController alloc] initWithRootViewController:[GCHomeViewController new]];
+    homeNav.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"首页" image:nil tag:11];
+    [homeNav.tabBarItem setImage:[UIImage imageNamed:@"home.png"]];
+    UINavigationController *mainNav = [[UINavigationController alloc] initWithRootViewController:[GCMainNewsViewController new]];
+    mainNav.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"视频" image:nil tag:11];
+    [mainNav.tabBarItem setImage:[UIImage imageNamed:@"movie.png"]];
+    UINavigationController *lifeNav = [[UINavigationController alloc] initWithRootViewController:[GCLifeViewController new]];
+    lifeNav.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"生活" image:nil tag:11];
+    [lifeNav.tabBarItem setImage:[UIImage imageNamed:@"life.png"]];
+    NSMutableArray *itemsArr = [NSMutableArray arrayWithObjects:homeNav,mainNav,lifeNav,nil];
+    _tabBarController = [UITabBarController new];
+    _tabBarController.delegate = self;
+    [_tabBarController setViewControllers:itemsArr];
+    _tabBarController.selectedIndex = 0;
+    _tabBarController.selectedViewController = [_tabBarController.viewControllers objectAtIndex:0];
+    self.window.rootViewController = _tabBarController;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
