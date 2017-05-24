@@ -18,6 +18,7 @@
     [super viewDidLoad];
     self.navigationItem.title = @"生活";
     self.navigationController.navigationBar.barTintColor = [UIColor redColor];
+    [self.view setBackgroundColor:[UIColor whiteColor]];
 }
 
 - (void)didReceiveMemoryWarning {
